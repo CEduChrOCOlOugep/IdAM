@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj": {}
+    "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj": {}
   },
   "projects": {
-    "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj": {
+    "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj",
+        "projectUniqueName": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj",
         "projectName": "IdAM.Client",
-        "projectPath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj",
+        "projectPath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj",
         "packagesPath": "/Users/brandynlacourse/.nuget/packages/",
-        "outputPath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/obj/",
+        "outputPath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brandynlacourse/.nuget/NuGet/NuGet.Config"

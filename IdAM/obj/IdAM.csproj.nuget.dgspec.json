@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/IdAM.csproj": {}
+    "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM/IdAM.csproj": {}
   },
   "projects": {
-    "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj": {
+    "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj",
+        "projectUniqueName": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj",
         "projectName": "IdAM.Client",
-        "projectPath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj",
+        "projectPath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj",
         "packagesPath": "/Users/brandynlacourse/.nuget/packages/",
-        "outputPath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/obj/",
+        "outputPath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brandynlacourse/.nuget/NuGet/NuGet.Config"
@@ -99,14 +99,14 @@
         }
       }
     },
-    "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/IdAM.csproj": {
+    "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM/IdAM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/IdAM.csproj",
+        "projectUniqueName": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM/IdAM.csproj",
         "projectName": "IdAM",
-        "projectPath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/IdAM.csproj",
+        "projectPath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM/IdAM.csproj",
         "packagesPath": "/Users/brandynlacourse/.nuget/packages/",
-        "outputPath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/obj/",
+        "outputPath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brandynlacourse/.nuget/NuGet/NuGet.Config"
@@ -122,8 +122,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj": {
-                "projectPath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj"
+              "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj": {
+                "projectPath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj"
               }
             }
           }
@@ -151,6 +151,14 @@
               "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.0, )"
             },

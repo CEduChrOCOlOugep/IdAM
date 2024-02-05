@@ -24,6 +24,10 @@ public static class DbInitializer
         var roles = JsonConvert.DeserializeObject<List<ApplicationRole>>(File.ReadAllText("FileBaseContext/AspNetRoles.json"));
         var roleclaims = JsonConvert.DeserializeObject<List<IdentityRoleClaim<string>>>(File.ReadAllText("FileBaseContext/AspNetRoleClaims.json"));
 
+        // Remove explicit Id values from userclaims and roleclaims
+        userclaims.ForEach(uc => uc.Id = 0);
+        roleclaims.ForEach(rc => rc.Id = 0);
+
         // Seed data
         context.Users.AddRange(users);
         context.UserRoles.AddRange(userroles);

@@ -13,31 +13,31 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = IdAM.Client
 build_property.RootNamespace = IdAM.Client
-build_property.ProjectDir = /Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/
+build_property.ProjectDir = /Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client
+build_property.MSBuildProjectDirectory = /Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/Modal.razor]
+[/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/Modal.razor]
 build_metadata.AdditionalFiles.TargetPath = TW9kYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/Pages/Roles.razor]
+[/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/Pages/Roles.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9sZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/Pages/Users.razor]
+[/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/Pages/Users.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/RedirectToLogin.razor]
+[/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/RedirectToLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = UmVkaXJlY3RUb0xvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/_Imports.razor]
+[/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
