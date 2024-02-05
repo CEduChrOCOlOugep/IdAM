@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/obj/Debug/net8.0/scopedcss/projectbundle/IdAM.bundle.scp.css",
+      "PackagePath": "staticwebassets/IdAM.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.IdAM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.IdAM.props",
+      "PackagePath": "build\\IdAM.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.IdAM.props",
+      "PackagePath": "buildMultiTargeting\\IdAM.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.IdAM.props",
+      "PackagePath": "buildTransitive\\IdAM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

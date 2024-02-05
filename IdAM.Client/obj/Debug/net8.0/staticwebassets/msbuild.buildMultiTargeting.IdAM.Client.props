@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/IdAM.Client.props" />
+</Project>
