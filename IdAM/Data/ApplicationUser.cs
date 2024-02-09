@@ -7,5 +7,8 @@ namespace IdAM.Data
     {
         public ICollection<IdentityUserRole<string>> Roles { get; set; }
         public ICollection<IdentityUserClaim<string>> Claims { get; set; }
+        
+        public ICollection<UserApplication> UserApplications { get; set; }
+        
     }
 }

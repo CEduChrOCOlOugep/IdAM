@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
 
 namespace IdAM.Data
 {
@@ -9,7 +10,6 @@ namespace IdAM.Data
         public ApplicationRole(string roleName)
             : base(roleName) { }
 
-        public ICollection<IdentityRoleClaim<string>> Claims { get; set; }
+        public ICollection<AppRole> AppRoles { get; set; }
     }
-
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IdAM.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37d7a5b9763a437b6a259cf09dee79f9ffc57e9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4e2382474d5659c3052ecc599d884b0e8894e10")]
 [assembly: System.Reflection.AssemblyProductAttribute("IdAM.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IdAM.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

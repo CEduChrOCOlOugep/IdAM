@@ -15,20 +15,22 @@ namespace IdAM.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<ApplicationRole> _roleManager;
+        private readonly ApplicationDbContext _context;
         private readonly ILogger<IdentityController> _logger;
         private readonly Dictionary<string, string> _roles;
         private readonly Dictionary<string, string> _claimTypes;
 
-        public IdentityController(UserManager<ApplicationUser> userManager, RoleManager<ApplicationRole> roleManager, ILogger<IdentityController> logger)
+        public IdentityController(UserManager<ApplicationUser> userManager, RoleManager<ApplicationRole> roleManager, ILogger<IdentityController> logger, ApplicationDbContext context)
         {
             _userManager = userManager;
             _roleManager = roleManager;
             _logger = logger;
+            _context = context;
 
             _roles = roleManager.Roles.OrderBy(r => r.Name).ToDictionary(r => r.Id, r => r.Name);
             var fldInfo = typeof(ClaimTypes).GetFields(BindingFlags.Static | BindingFlags.Public);
             _claimTypes = fldInfo.OrderBy(c => c.Name).ToDictionary(c => c.Name, c => (string)c.GetValue(null));
-        }
+        }    
 
         [HttpGet("[action]")]
         public Dictionary<string, string> RolesList() => _roles;
@@ -39,15 +41,16 @@ namespace IdAM.Controllers
         [HttpGet("[action]")]
         public async Task<dynamic> RoleList()
         {
-            var qry = _roleManager.Roles.Include(r => r.Claims).OrderBy(r => r.Name);
+            var qry = _context.AppRoles.Include(ar => ar.Role).Include(ar => ar.RoleClaims).OrderBy(ar => ar.Role.Name);
 
             int total = await qry.CountAsync();
 
-            var data = (await qry.ToArrayAsync()).Select(r => new
+            var data = (await qry.ToArrayAsync()).Select(ar => new
             {
-                r.Id,
-                r.Name,
-                Claims = r.Claims.Select(c => new KeyValuePair<string, string>(_claimTypes.Single(x => x.Value == c.ClaimType).Key, c.ClaimValue)),
+                RoleId = ar.Role.Id,
+                RoleName = ar.Role.Name,
+                AppId = ar.AppId,
+                RoleClaims = ar.RoleClaims.Select(c => new KeyValuePair<string, string>(_claimTypes.Single(x => x.Value == c.ClaimType).Key, c.ClaimValue)),
             });
 
             return new { total, data };
@@ -263,7 +266,7 @@ namespace IdAM.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, ex.Message);
             }
         }
-
+        
         [HttpPost("[action]")]
         public async Task<IActionResult> ResetPassword(string id, string password, string verify)
         {

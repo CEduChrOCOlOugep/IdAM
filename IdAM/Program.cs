@@ -5,6 +5,7 @@ using IdAM.Data;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using App = IdAM.Components.App;
 
 var builder = WebApplication.CreateBuilder(args);
 

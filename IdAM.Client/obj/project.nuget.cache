@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jOc+0fg/+2WMCZ8nHUoz/4fgqxcuHIE6A10/03YiZvlReu+oYcgzOlsTXA4chaz6uazbZLZt+7RgUkhodtFY+w==",
+  "dgSpecHash": "B8h00hdhvUo1QEz30TAJK/mBTKBQXtGGdBVzQPrhtzGlZJu2fsI4v1tFzKDw9fdWhsP7EwMncJ2Mbk47DJcwJQ==",
   "success": true,
   "projectFilePath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj",
   "expectedPackageFiles": [
@@ -39,8 +39,7 @@
     "/Users/brandynlacourse/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "/Users/brandynlacourse/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
     "/Users/brandynlacourse/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
-    "/Users/brandynlacourse/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512",
-    "/Users/brandynlacourse/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.1/microsoft.netcore.app.runtime.mono.browser-wasm.8.0.1.nupkg.sha512"
+    "/Users/brandynlacourse/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

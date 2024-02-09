@@ -22,6 +22,140 @@ namespace IdAM.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("IdAM.Data.App", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Apps");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "App 1"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "App 2"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "App 3"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "App 4"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "App 5"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Name = "App 6"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "App 7"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Name = "App 8"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Name = "App 9"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Name = "App 10"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Name = "App 11"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Name = "App 12"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            Name = "App 13"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            Name = "App 14"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            Name = "App 15"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            Name = "App 16"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            Name = "App 17"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            Name = "App 18"
+                        },
+                        new
+                        {
+                            Id = 19,
+                            Name = "App 19"
+                        },
+                        new
+                        {
+                            Id = 20,
+                            Name = "App 20"
+                        });
+                });
+
+            modelBuilder.Entity("IdAM.Data.AppRole", b =>
+                {
+                    b.Property<string>("RoleId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AppId")
+                        .HasColumnType("int");
+
+                    b.HasKey("RoleId", "AppId");
+
+                    b.HasIndex("AppId");
+
+                    b.ToTable("AppRoles");
+                });
+
             modelBuilder.Entity("IdAM.Data.ApplicationRole", b =>
                 {
                     b.Property<string>("Id")
@@ -114,6 +248,21 @@ namespace IdAM.Data.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("IdAM.Data.UserApplication", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AppId")
+                        .HasColumnType("int");
+
+                    b.HasKey("UserId", "AppId");
+
+                    b.HasIndex("AppId");
+
+                    b.ToTable("UserApplications");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.Property<int>("Id")
@@ -128,6 +277,11 @@ namespace IdAM.Data.Migrations
                     b.Property<string>("ClaimValue")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(34)
+                        .HasColumnType("nvarchar(34)");
+
                     b.Property<string>("RoleId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
@@ -137,6 +291,10 @@ namespace IdAM.Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetRoleClaims", (string)null);
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("IdentityRoleClaim<string>");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -220,10 +378,60 @@ namespace IdAM.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("IdAM.Data.AppRoleClaim", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>");
+
+                    b.Property<int>("AppId")
+                        .HasColumnType("int");
+
+                    b.HasIndex("RoleId", "AppId");
+
+                    b.HasDiscriminator().HasValue("AppRoleClaim");
+                });
+
+            modelBuilder.Entity("IdAM.Data.AppRole", b =>
+                {
+                    b.HasOne("IdAM.Data.App", "App")
+                        .WithMany("AppRoles")
+                        .HasForeignKey("AppId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("IdAM.Data.ApplicationRole", "Role")
+                        .WithMany("AppRoles")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("App");
+
+                    b.Navigation("Role");
+                });
+
+            modelBuilder.Entity("IdAM.Data.UserApplication", b =>
+                {
+                    b.HasOne("IdAM.Data.App", "App")
+                        .WithMany("UserApplications")
+                        .HasForeignKey("AppId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("IdAM.Data.ApplicationUser", "User")
+                        .WithMany("UserApplications")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("App");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("IdAM.Data.ApplicationRole", null)
-                        .WithMany("Claims")
+                        .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -271,9 +479,32 @@ namespace IdAM.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("IdAM.Data.AppRoleClaim", b =>
+                {
+                    b.HasOne("IdAM.Data.AppRole", "AppRole")
+                        .WithMany("RoleClaims")
+                        .HasForeignKey("RoleId", "AppId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppRole");
+                });
+
+            modelBuilder.Entity("IdAM.Data.App", b =>
+                {
+                    b.Navigation("AppRoles");
+
+                    b.Navigation("UserApplications");
+                });
+
+            modelBuilder.Entity("IdAM.Data.AppRole", b =>
+                {
+                    b.Navigation("RoleClaims");
+                });
+
             modelBuilder.Entity("IdAM.Data.ApplicationRole", b =>
                 {
-                    b.Navigation("Claims");
+                    b.Navigation("AppRoles");
                 });
 
             modelBuilder.Entity("IdAM.Data.ApplicationUser", b =>
@@ -281,6 +512,8 @@ namespace IdAM.Data.Migrations
                     b.Navigation("Claims");
 
                     b.Navigation("Roles");
+
+                    b.Navigation("UserApplications");
                 });
 #pragma warning restore 612, 618
         }

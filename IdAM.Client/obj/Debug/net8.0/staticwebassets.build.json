@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4/ruPEbzbez2z0r0tNbz6n+XG5GIthgvnZSA2IatPrU=",
+  "Hash": "gi/T8WfdatjJpwtJ6GRqtIePSSgVLNvanUVImmfKbqU=",
   "Source": "IdAM.Client",
   "BasePath": "/",
   "Mode": "Default",
@@ -128,7 +128,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.js"
+      "OriginalItemSpec": "/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.js"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map",
@@ -147,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.js.map"
+      "OriginalItemSpec": "/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.js.map"
     },
     {
-      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.1.3ovhmxtuka.js",
+      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.1.0lnbe73d1p.js",
       "SourceId": "IdAM.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.1.3ovhmxtuka.js",
+      "RelativePath": "_framework/dotnet.native.8.0.1.0lnbe73d1p.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,7 +166,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.native.js"
+      "OriginalItemSpec": "/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.native.js"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm",
@@ -185,15 +185,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.native.wasm"
+      "OriginalItemSpec": "/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.native.wasm"
     },
     {
-      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.1.8190q1jn77.js",
+      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.1.ra5qja631r.js",
       "SourceId": "IdAM.Client",
       "SourceType": "Computed",
       "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.1.8190q1jn77.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.1.ra5qja631r.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,7 +204,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.runtime.js"
+      "OriginalItemSpec": "/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.runtime.js"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map",
@@ -223,7 +223,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.runtime.js.map"
+      "OriginalItemSpec": "/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/dotnet.runtime.js.map"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat",
@@ -242,7 +242,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/icudt_CJK.dat"
+      "OriginalItemSpec": "/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/icudt_CJK.dat"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat",
@@ -261,7 +261,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/icudt_EFIGS.dat"
+      "OriginalItemSpec": "/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/icudt_EFIGS.dat"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat",
@@ -280,7 +280,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/.nuget/packages/microsoft.netcore.app.runtime.mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/icudt_no_CJK.dat"
+      "OriginalItemSpec": "/usr/local/share/dotnet/packs/Microsoft.NETCore.App.Runtime.Mono.browser-wasm/8.0.1/runtimes/browser-wasm/native/icudt_no_CJK.dat"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/IdAM.Client.pdb",
@@ -4159,6 +4159,25 @@
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.IO.Pipes.wasm"
     },
     {
+      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/0lnbe73d1p.gz",
+      "SourceId": "IdAM.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.1.0lnbe73d1p.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.1.0lnbe73d1p.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.1.0lnbe73d1p.js"
+    },
+    {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/0wh9zk3tbg.gz",
       "SourceId": "IdAM.Client",
       "SourceType": "Computed",
@@ -4520,25 +4539,6 @@
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.Net.Primitives.wasm"
     },
     {
-      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/3ovhmxtuka.gz",
-      "SourceId": "IdAM.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.1.3ovhmxtuka.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.1.3ovhmxtuka.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.8.0.1.3ovhmxtuka.js"
-    },
-    {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/3pljne5vf7.gz",
       "SourceId": "IdAM.Client",
       "SourceType": "Computed",
@@ -4556,25 +4556,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.Private.DataContractSerialization.wasm"
-    },
-    {
-      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/3tysatwqhj.gz",
-      "SourceId": "IdAM.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/3uqx7yoaae.gz",
@@ -4689,6 +4670,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.Console.wasm"
+    },
+    {
+      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/4y5wpbmut8.gz",
+      "SourceId": "IdAM.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_EFIGS.dat"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/525nnbu7hd.gz",
@@ -4995,25 +4995,6 @@
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.Web.wasm"
     },
     {
-      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/8190q1jn77.gz",
-      "SourceId": "IdAM.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.1.8190q1jn77.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.1.8190q1jn77.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.1.8190q1jn77.js"
-    },
-    {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/81omz94zcy.gz",
       "SourceId": "IdAM.Client",
       "SourceType": "Computed",
@@ -5126,6 +5107,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.IO.IsolatedStorage.wasm"
+    },
+    {
+      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/9oa59awhsy.gz",
+      "SourceId": "IdAM.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/9vbnxwhu73.gz",
@@ -5373,25 +5373,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/IdAM.Client.wasm"
-    },
-    {
-      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/bw33wrsob4.gz",
-      "SourceId": "IdAM.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_no_CJK.dat"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/bxziqz7e30.gz",
@@ -5945,25 +5926,6 @@
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.Runtime.CompilerServices.Unsafe.wasm"
     },
     {
-      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/g5dw9yasyq.gz",
-      "SourceId": "IdAM.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map"
-    },
-    {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/g7ln737atc.gz",
       "SourceId": "IdAM.Client",
       "SourceType": "Computed",
@@ -6382,6 +6344,25 @@
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.Runtime.Serialization.wasm"
     },
     {
+      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/j0ecqnihen.gz",
+      "SourceId": "IdAM.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat"
+    },
+    {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/j5er1w1rto.gz",
       "SourceId": "IdAM.Client",
       "SourceType": "Computed",
@@ -6551,25 +6532,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.Threading.wasm"
-    },
-    {
-      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/koq6cw85ho.gz",
-      "SourceId": "IdAM.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/icudt_CJK.dat"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/kta151w865.gz",
@@ -6798,6 +6760,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.wasm"
+    },
+    {
+      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/npqjo7uw3j.gz",
+      "SourceId": "IdAM.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/nxjgop889r.gz",
@@ -7047,6 +7028,25 @@
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.IO.Compression.FileSystem.wasm"
     },
     {
+      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/pzlp3fb4t7.gz",
+      "SourceId": "IdAM.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.js"
+    },
+    {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/q64rurpqmp.gz",
       "SourceId": "IdAM.Client",
       "SourceType": "Computed",
@@ -7216,6 +7216,44 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.IO.Compression.wasm"
+    },
+    {
+      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/ra5qja631r.gz",
+      "SourceId": "IdAM.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.1.ra5qja631r.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.1.ra5qja631r.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.8.0.1.ra5qja631r.js"
+    },
+    {
+      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/ryw64hx39r.gz",
+      "SourceId": "IdAM.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/s1s6pkcerg.gz",
@@ -7446,25 +7484,6 @@
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.Drawing.wasm"
     },
     {
-      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/uwr8czht1d.gz",
-      "SourceId": "IdAM.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.js.map"
-    },
-    {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/v28ia6ll22.gz",
       "SourceId": "IdAM.Client",
       "SourceType": "Computed",
@@ -7691,25 +7710,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.Security.Cryptography.Csp.wasm"
-    },
-    {
-      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/wvw0uu1u7t.gz",
-      "SourceId": "IdAM.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.js"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/x2cs16o6fc.gz",
@@ -7940,25 +7940,6 @@
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/System.Formats.Asn1.wasm"
     },
     {
-      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/ysrngb0w75.gz",
-      "SourceId": "IdAM.Client",
-      "SourceType": "Computed",
-      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.native.wasm"
-    },
-    {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/yszf4seqyf.gz",
       "SourceId": "IdAM.Client",
       "SourceType": "Computed",
@@ -7995,6 +7976,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/Microsoft.Extensions.Primitives.wasm"
+    },
+    {
+      "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/z316hextyv.gz",
+      "SourceId": "IdAM.Client",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/bin/Debug/net8.0/wwwroot/_framework/dotnet.runtime.js.map"
     },
     {
       "Identity": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/obj/Debug/net8.0/compressed/z4mdribef1.gz",
