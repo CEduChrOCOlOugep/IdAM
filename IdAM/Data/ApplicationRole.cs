@@ -10,6 +10,7 @@ namespace IdAM.Data
         public ApplicationRole(string roleName)
             : base(roleName) { }
 
-        public ICollection<AppRole> AppRoles { get; set; }
+        public ICollection<App> Apps { get; set; }
+        public ICollection<IdentityRoleClaim<string>> Claims { get; set; }
     }
 }

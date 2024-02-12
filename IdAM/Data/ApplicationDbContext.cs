@@ -1,10 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
-using Microsoft.EntityFrameworkCore.ValueGeneration;
-using Microsoft.Extensions.Options;
 
 namespace IdAM.Data
 {
@@ -13,45 +9,62 @@ namespace IdAM.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
-        public DbSet<App> Apps { get; set; }
-        public DbSet<UserApplication> UserApplications { get; set; }
-        public DbSet<AppRole> AppRoles { get; set; }
-        public DbSet<AppRoleClaim> AppRoleClaims { get; set; }
 
-        
+        public DbSet<App> Apps { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
 
-            var fakeApps = new List<App>();
-            for (int i = 1; i <= 20; i++)
-            {
-                fakeApps.Add(new App { Id = i, Name = $"App {i}" });
-            }
+            // Many-to-many relationship between ApplicationUser and App
+            builder.Entity<ApplicationUser>()
+                .HasMany(u => u.Apps)
+                .WithMany(a => a.Users)
+                .UsingEntity(j => j.ToTable("UserApplications"));
 
-            builder.Entity<App>().HasData(fakeApps);
-            builder.Entity<UserApplication>().HasKey(ua => new { ua.UserId, ua.AppId });
-            builder.Entity<UserApplication>().HasOne(ua => ua.User).WithMany(u => u.UserApplications).HasForeignKey(ua => ua.UserId);
-            builder.Entity<UserApplication>().HasOne(ua => ua.App).WithMany(a => a.UserApplications).HasForeignKey(ua => ua.AppId);
+            // Many-to-many relationship between ApplicationRole and App
+            builder.Entity<ApplicationRole>()
+                .HasMany(r => r.Apps)
+                .WithMany(a => a.Roles)
+                .UsingEntity(j => j.ToTable("AppRoles"));
 
-            builder.Entity<AppRole>().HasKey(ar => new { ar.RoleId, ar.AppId });
-            builder.Entity<AppRole>().HasOne(ar => ar.Role).WithMany(r => r.AppRoles).HasForeignKey(ar => ar.RoleId);
-            builder.Entity<AppRole>().HasOne(ar => ar.App).WithMany(a => a.AppRoles).HasForeignKey(ar => ar.AppId);
-
+            // Configuring ApplicationUser for cascade delete on roles and claims
             builder.Entity<ApplicationUser>(entity =>
             {
                 entity.Property(u => u.Id).HasColumnType("nvarchar(450)");
-                entity.HasMany(p => p.Roles).WithOne().HasForeignKey(p => p.UserId).IsRequired().OnDelete(DeleteBehavior.Cascade);
-                entity.HasMany(e => e.Claims).WithOne().HasForeignKey(e => e.UserId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+                entity.HasMany(p => p.Roles)
+                      .WithOne()
+                      .HasForeignKey(p => p.UserId)
+                      .IsRequired()
+                      .OnDelete(DeleteBehavior.Cascade);
+                entity.HasMany(e => e.Claims)
+                      .WithOne()
+                      .HasForeignKey(e => e.UserId)
+                      .IsRequired()
+                      .OnDelete(DeleteBehavior.Cascade);
             });
 
+            // Configuring ApplicationRole for cascade delete on role claims
             builder.Entity<ApplicationRole>(entity =>
             {
                 entity.Property(r => r.Id).HasColumnType("nvarchar(450)");
-                //entity.HasMany(r => r.Claims).WithOne().HasForeignKey(r => r.RoleId).IsRequired().OnDelete(DeleteBehavior.Cascade);
+                entity.HasMany(r => r.Claims)
+                      .WithOne()
+                      .HasForeignKey(r => r.RoleId)
+                      .IsRequired()
+                      .OnDelete(DeleteBehavior.Cascade);
             });
 
-            builder.Entity<AppRoleClaim>().HasOne(arc => arc.AppRole).WithMany(ar => ar.RoleClaims).HasForeignKey(arc => new { arc.RoleId, arc.AppId });
+            // Configuring App for many-to-many relationships with ApplicationUser and ApplicationRole
+            builder.Entity<App>(entity =>
+            {
+                entity.HasMany(a => a.Users)
+                      .WithMany(u => u.Apps)
+                      .UsingEntity(j => j.ToTable("UserApplications"));
+                entity.HasMany(a => a.Roles)
+                      .WithMany(r => r.Apps)
+                      .UsingEntity(j => j.ToTable("AppRoles"));
+            });
         }
     }
 }
