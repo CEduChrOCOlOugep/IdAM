@@ -10578,11 +10578,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM/IdAM.csproj",
+      "projectUniqueName": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/IdAM.csproj",
       "projectName": "IdAM",
-      "projectPath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM/IdAM.csproj",
+      "projectPath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/IdAM.csproj",
       "packagesPath": "/Users/brandynlacourse/.nuget/packages/",
-      "outputPath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM/obj/",
+      "outputPath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/brandynlacourse/.nuget/NuGet/NuGet.Config"
@@ -10598,8 +10598,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj": {
-              "projectPath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj"
+            "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj": {
+              "projectPath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj"
             }
           }
         }

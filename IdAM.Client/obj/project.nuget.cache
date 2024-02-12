@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B8h00hdhvUo1QEz30TAJK/mBTKBQXtGGdBVzQPrhtzGlZJu2fsI4v1tFzKDw9fdWhsP7EwMncJ2Mbk47DJcwJQ==",
+  "dgSpecHash": "vlOSobHmJb5+QjtafrqtufeqXqCT5Tkpv9n2oyNIzmmmePyw9MED3JW/LKOvN8znHw6VFPLDf+E0bvkiwNS1HA==",
   "success": true,
-  "projectFilePath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM.Client/IdAM.Client.csproj",
+  "projectFilePath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM.Client/IdAM.Client.csproj",
   "expectedPackageFiles": [
     "/Users/brandynlacourse/.nuget/packages/microsoft.aspnetcore.authorization/8.0.0/microsoft.aspnetcore.authorization.8.0.0.nupkg.sha512",
     "/Users/brandynlacourse/.nuget/packages/microsoft.aspnetcore.components/8.0.0/microsoft.aspnetcore.components.8.0.0.nupkg.sha512",

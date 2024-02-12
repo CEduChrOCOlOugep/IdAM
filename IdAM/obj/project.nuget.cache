@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uFmIYsq1ntSjZ1y3bVTSNZn9yWHVNCrmcZGOY8kPjR3WNYB+7jvSmRKevhC4xqw4n476dBYjvXGP8xdMc26dbA==",
+  "dgSpecHash": "dMaWYXYs1QYBdaaRr1LFf1i1GQvcoLk/Kz3UcAogy4um59pia7WDtBuy/phMXSZyrRJTROVQMDywskN935uSXA==",
   "success": true,
-  "projectFilePath": "/Users/brandynlacourse/VSCodeProjects/IdAM/IdAM/IdAM.csproj",
+  "projectFilePath": "/Users/brandynlacourse/RiderProjects/IdAM/IdAM/IdAM.csproj",
   "expectedPackageFiles": [
     "/Users/brandynlacourse/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/brandynlacourse/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
