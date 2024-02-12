@@ -58,6 +58,7 @@ namespace IdAM.Data
             // Configuring App for many-to-many relationships with ApplicationUser and ApplicationRole
             builder.Entity<App>(entity =>
             {
+                entity.Property(a => a.Id).ValueGeneratedOnAdd(); // Auto-generate Ids
                 entity.HasMany(a => a.Users)
                       .WithMany(u => u.Apps)
                       .UsingEntity(j => j.ToTable("UserApplications"));
